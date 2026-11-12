@@ -23,6 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-helper?label=version&color=2FA6A0" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2FA6A0" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/gratuit-sans%20pub-111314" alt="Free">
+  <a href="https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-helper/total?label=t%C3%A9l%C3%A9chargements&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -98,6 +99,7 @@ Le thème clair est à un clic — le bouton soleil en haut.
 
 1. Ouvrez la page de la **[dernière version](https://github.com/maksimkhatskevich/grimsby-helper/releases/latest)** et téléchargez l’installeur `.exe`.
 2. Lancez-le. Windows peut afficher une fenêtre bleue « Windows a protégé votre ordinateur » : c’est un avertissement normal pour les logiciels sans certificat de signature payant. Cliquez sur **Informations complémentaires → Exécuter quand même**.
+   L’installeur a été vérifié sur VirusTotal : [aucun des 68 antivirus ne détecte quoi que ce soit](https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327) (version 1.0.1).
 3. Ouvrez Helper : l’écran d’accueil montre tout de suite l’état de votre PC.
 
 **Configuration requise :** Windows 10 ou 11 (64 bits).

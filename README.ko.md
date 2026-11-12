@@ -23,6 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-helper?label=%EB%B2%84%EC%A0%84&color=2FA6A0" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2FA6A0" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%EB%AC%B4%EB%A3%8C-%EA%B4%91%EA%B3%A0%20%EC%97%86%EC%9D%8C-111314" alt="Free">
+  <a href="https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-helper/total?label=%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -98,6 +99,7 @@ Windows와 함께 시작되는 것: 레지스트리 항목, 시작 폴더, 예�
 
 1. **[최신 버전](https://github.com/maksimkhatskevich/grimsby-helper/releases/latest)** 페이지를 열고 설치 프로그램 `.exe`를 다운로드하세요.
 2. 실행하세요. Windows가 파란색 "Windows의 PC 보호" 창을 띄울 수 있는데, 유료 코드 서명 인증서가 없는 프로그램에 대한 일반적인 경고입니다. **추가 정보 → 실행**을 누르세요.
+   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 68개 모두 이상 없음](https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327) (버전 1.0.1).
 3. Helper를 열면 홈 화면에 바로 PC 상태가 나옵니다.
 
 **요구 사항:** Windows 10 또는 11(64비트).

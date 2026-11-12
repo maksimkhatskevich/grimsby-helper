@@ -23,6 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-helper?label=%E7%89%88%E6%9C%AC&color=2FA6A0" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2FA6A0" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E5%85%8D%E8%B4%B9-%E6%97%A0%E5%B9%BF%E5%91%8A-111314" alt="Free">
+  <a href="https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-helper/total?label=%E4%B8%8B%E8%BD%BD%E9%87%8F&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -98,6 +99,7 @@
 
 1. 打开 **[最新版本](https://github.com/maksimkhatskevich/grimsby-helper/releases/latest)** 页面，下载安装程序 `.exe`。
 2. 运行它。Windows 可能会显示蓝色的“Windows 已保护你的电脑”窗口——这是没有付费代码签名证书的程序的正常提示。点击 **更多信息 → 仍要运行**。
+   安装程序已在 VirusTotal 上检测：[68 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327)（1.0.1 版）。
 3. 打开 Helper——主页会立即显示电脑状态。
 
 **系统要求：** Windows 10 或 11（64 位）。

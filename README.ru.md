@@ -23,6 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-helper?label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=2FA6A0" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2FA6A0" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE-%D0%B1%D0%B5%D0%B7%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B-111314" alt="Free">
+  <a href="https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-helper/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -98,6 +99,7 @@
 
 1. Откройте страницу **[последней версии](https://github.com/maksimkhatskevich/grimsby-helper/releases/latest)** и скачайте установщик `.exe`.
 2. Запустите его. Windows может показать синее окно «Система Windows защитила ваш компьютер» — это обычное предупреждение для программ без платного сертификата подписи. Нажмите **Подробнее → Выполнить в любом случае**.
+   Установщик проверен на VirusTotal: [ни один из 68 антивирусов ничего не нашёл](https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327) (версия 1.0.1).
 3. Откройте Helper — главная сразу покажет состояние компьютера.
 
 **Требования:** Windows 10 или 11 (64 бит).

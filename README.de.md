@@ -23,6 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-helper?label=Version&color=2FA6A0" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2FA6A0" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/kostenlos-ohne%20Werbung-111314" alt="Free">
+  <a href="https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-helper/total?label=Downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -98,6 +99,7 @@ Das helle Design ist einen Klick entfernt – der Sonnenknopf oben.
 
 1. Öffne die Seite der **[neuesten Version](https://github.com/maksimkhatskevich/grimsby-helper/releases/latest)** und lade das Installationsprogramm `.exe` herunter.
 2. Starte es. Windows zeigt eventuell ein blaues Fenster „Der Computer wurde durch Windows geschützt“ – eine normale Warnung für Programme ohne kostenpflichtiges Signaturzertifikat. Klicke auf **Weitere Informationen → Trotzdem ausführen**.
+   Das Installationsprogramm wurde bei VirusTotal geprüft: [keiner der 68 Virenscanner schlägt an](https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327) (Version 1.0.1).
 3. Öffne Helper – die Startseite zeigt sofort den Zustand deines PCs.
 
 **Voraussetzungen:** Windows 10 oder 11 (64 Bit).

@@ -23,6 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-helper?label=version&color=2FA6A0" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2FA6A0" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/free-no%20ads-111314" alt="Free">
+  <a href="https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-helper/total?label=downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -98,6 +99,7 @@ The light theme is one click away — the sun button at the top.
 
 1. Open the **[latest release](https://github.com/maksimkhatskevich/grimsby-helper/releases/latest)** page and download the installer `.exe`.
 2. Run it. Windows may show a blue "Windows protected your PC" window — that's a normal warning for apps without a paid code-signing certificate. Click **More info → Run anyway**.
+   The installer has been checked on VirusTotal: [0 of 68 antivirus engines flag it](https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327) (version 1.0.1).
 3. Open Helper — the home screen shows your PC status right away.
 
 **Requirements:** Windows 10 or 11 (64-bit).

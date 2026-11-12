@@ -23,6 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-helper?label=%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3&color=2FA6A0" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2FA6A0" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E7%84%A1%E6%96%99-%E5%BA%83%E5%91%8A%E3%81%AA%E3%81%97-111314" alt="Free">
+  <a href="https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-helper/total?label=%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -98,6 +99,7 @@ Windows と一緒に起動するもの：レジストリ、スタートアップ
 
 1. **[最新バージョン](https://github.com/maksimkhatskevich/grimsby-helper/releases/latest)** のページを開き、インストーラー `.exe` をダウンロードします。
 2. 実行します。Windows に青い「Windows によって PC が保護されました」画面が出ることがありますが、有料の署名証明書がないアプリでは普通の警告です。**詳細情報 → 実行** をクリックしてください。
+   インストーラーは VirusTotal で確認済みです：[68 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327)（バージョン 1.0.1）。
 3. Helper を開くと、ホーム画面にすぐ PC の状態が表示されます。
 
 **動作環境：** Windows 10 / 11（64 ビット）。

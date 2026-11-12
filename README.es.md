@@ -23,6 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-helper?label=versi%C3%B3n&color=2FA6A0" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2FA6A0" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/gratis-sin%20anuncios-111314" alt="Free">
+  <a href="https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-helper/total?label=descargas&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -98,6 +99,7 @@ El tema claro está a un clic: el botón del sol, arriba.
 
 1. Abre la página de la **[última versión](https://github.com/maksimkhatskevich/grimsby-helper/releases/latest)** y descarga el instalador `.exe`.
 2. Ejecútalo. Windows puede mostrar una ventana azul «Windows protegió su PC»: es un aviso normal para programas sin certificado de firma de pago. Pulsa **Más información → Ejecutar de todas formas**.
+   El instalador se ha analizado en VirusTotal: [ninguno de 68 antivirus detecta nada](https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327) (versión 1.0.1).
 3. Abre Helper: la pantalla de inicio muestra al instante el estado de tu PC.
 
 **Requisitos:** Windows 10 u 11 (64 bits).
