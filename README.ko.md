@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-helper?label=%EB%B2%84%EC%A0%84&color=2FA6A0" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2FA6A0" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%EB%AC%B4%EB%A3%8C-%EA%B4%91%EA%B3%A0%20%EC%97%86%EC%9D%8C-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
+  <a href="https://www.virustotal.com/gui/file/ad42128ab26413ff71df138aab058cc6819f2f707081d396ba444b1f522efc1e"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-helper/total?label=%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -67,7 +67,7 @@ PC 도구는 보통 숫자를 잔뜩 늘어놓거나, 마법 버튼 하나로 Wi
 
 ### 🧹 먼저 보여 주는 정리
 
-임시 파일, 브라우저 캐시, 휴지통, 미리 보기, Windows 업데이트 잔여물, 오래된 로그, 오류 덤프. 찾은 항목을 크기와 쉬운 설명과 함께 모두 보여 주고, 지울 것을 고르면 얼마나 확보되는지 알려 줍니다. 가능한 경우 파일은 휴지통으로 가고, 그럴 수 없으면 버튼을 누르기 전에 알려 줍니다. 브라우저 탭과 비밀번호는 건드리지 않고, 레지스트리 정리는 없습니다.
+임시 파일, 브라우저 캐시, 휴지통, 미리 보기, Windows 업데이트 잔여물, 오래된 로그, 충돌 덤프. 찾은 항목을 크기와 쉬운 설명과 함께 보고, 지울 것을 고르면 얼마나 비워지는지 알 수 있습니다. 파일은 가능한 한 휴지통으로 가고, 불가능하면 버튼을 누르기 전에 Helper가 알려 줍니다. 브라우저 탭과 비밀번호는 건드리지 않습니다.
 
 ### 🚀 시작 프로그램
 
@@ -83,9 +83,29 @@ Windows와 함께 시작되는 것: 레지스트리 항목, 시작 폴더, 예�
 
 창을 닫아도 Helper를 트레이에 둘 수 있고, 아이콘 툴팁에 온도와 부하가 나옵니다. 과열, 공간 부족, 메모리 부족, 디스크 상태 저하를 알려 줍니다. 한 가지 일에 알림 하나. Windows와 함께 시작은 기본으로 꺼져 있습니다.
 
+### 🗑 흔적까지 제거
+
+먼저 프로그램 자체 제거 도구를 실행하고, 남은 폴더와 레지스트리 키를 찾아 삭제 전에 보여 주며 복원 지점도 만듭니다.
+
+### 🧰 도구
+
+중복 파일, 빈 폴더, 깨진 바로 가기, 빠른 파일 검색, 삭제한 파일 복구, 파일 나누기와 합치기, 파쇄기, 암호 암호화. **개인 정보:** 브라우저 기록과 최근 파일 지우기, 빈 공간 덮어쓰기.
+
+### 🛠 Windows 관리
+
+시스템 정보, 디스크 검사, 최적화, 시스템 파일 복구, 복원 지점, 서비스, 작업 스케줄러, 상황에 맞는 메뉴, 신중한 레지스트리 정리. 프로세스는 앱, 백그라운드, 응답 없음으로 나뉩니다.
+
+### 🤖 알아서 하는 일과 기록
+
+일정에 따른 메모리 정리, 임시 파일과 캐시의 안전한 자동 정리, 응답 없는 앱 닫기 제안. **기록**에는 Helper가 스스로 또는 클릭으로 한 모든 일이 남고, 시스템 변경은 되돌릴 수 있습니다.
+
 ### 🔐 관리자 권한
 
 앱 자체는 관리자 권한 없이 동작합니다. 센서를 읽으려면 권한이 필요하므로, 작은 별도 에이전트가 Windows 확인을 거쳐 한 번 권한을 받습니다. 코어 온도, 팬, 메인보드에는 센서 드라이버도 필요합니다. 버튼을 눌렀을 때만 공식 설치 파일을 내려받아 체크섬을 확인하고, Windows 확인을 거쳐 설치합니다. 설정에서 제거할 수 있습니다. 나머지 기능은 드라이버 없이도 동작합니다.
+
+### ⚙️ 설정과 나만의 모양
+
+설정은 모양, 언어, 업데이트와 앱 고유의 섹션으로 나뉘고, 위쪽 검색은 일치하는 항목만 보여 줍니다. 테마는 어둡게, 밝게, Windows 설정에 맞춤 중에서, 앱 색은 준비된 10가지 또는 직접 고른 색으로. 창 배경은 단색, 그라데이션, 내 사진이나 소리 없는 동영상으로 바꿀 수 있고 어둡게 하기와 흐림도 조절됩니다.
 
 🌍 **9개 언어:** 영어, 러시아어, 스페인어, 포르투갈어, 독일어, 프랑스어, 중국어, 일본어, 한국어 — 설정에서 바꾸면 바로 적용됩니다.
 
@@ -99,7 +119,7 @@ Windows와 함께 시작되는 것: 레지스트리 항목, 시작 폴더, 예�
 
 1. **[최신 버전](https://github.com/maksimkhatskevich/grimsby-helper/releases/latest)** 페이지를 열고 설치 프로그램 `.exe`를 다운로드하세요.
 2. 실행하세요. Windows가 파란색 "Windows의 PC 보호" 창을 띄울 수 있는데, 유료 코드 서명 인증서가 없는 프로그램에 대한 일반적인 경고입니다. **추가 정보 → 실행**을 누르세요.
-   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 68개 모두 이상 없음](https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327) (버전 1.0.1).
+   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 68개 모두 이상 없음](https://www.virustotal.com/gui/file/ad42128ab26413ff71df138aab058cc6819f2f707081d396ba444b1f522efc1e) (버전 1.1.0).
 3. Helper를 열면 홈 화면에 바로 PC 상태가 나옵니다.
 
 **요구 사항:** Windows 10 또는 11(64비트).
@@ -116,11 +136,15 @@ Grimsby Helper는 내 컴퓨터에서 동작합니다. PC 정보는 어디로도
 
 <table>
   <tr>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ko.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>다운로드한 음악과 뮤직비디오를 위한 오프라인 플레이어</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ko.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>영상, 오디오, 사진, 문서를 오프라인으로 변환</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ko.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>태그 일괄 편집: 앨범, 커버, 파일 이름</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ko.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>목소리를 따라가는 간단한 프롬프터</sub></td>
-    <td align="center" width="20%"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b><br><img src="screenshots/family/here-ko.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ko.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>다운로드한 음악과 뮤직비디오를 위한 오프라인 플레이어</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ko.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>영상, 오디오, 사진, 문서를 오프라인으로 변환</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ko.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>태그 일괄 편집: 앨범, 커버, 파일 이름</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ko.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>목소리를 따라가는 간단한 프롬프터</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b><br><img src="screenshots/family/here-ko.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-studio/blob/main/README.ko.md"><img src="screenshots/family/studio.png" width="56" alt=""><br><b>Grimsby Studio</b></a><br><sub>애니메이션 음악 인서트를 만드는 동영상 편집기</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-notes/blob/main/README.ko.md"><img src="screenshots/family/notes.png" width="56" alt=""><br><b>Grimsby Notes</b></a><br><sub>할 일, 프로젝트, 노트, 캘린더를 한 창에서</sub></td>
   </tr>
 </table>
 

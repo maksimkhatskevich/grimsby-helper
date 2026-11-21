@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-helper?label=version&color=2FA6A0" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2FA6A0" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/gratuit-sans%20pub-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
+  <a href="https://www.virustotal.com/gui/file/ad42128ab26413ff71df138aab058cc6819f2f707081d396ba444b1f522efc1e"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-helper/total?label=t%C3%A9l%C3%A9chargements&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -67,7 +67,7 @@ Température du processeur par cœur, fréquences et consommation, cartes graphi
 
 ### 🧹 Un nettoyage qui montre d’abord
 
-Fichiers temporaires, cache des navigateurs, Corbeille, miniatures, restes de mises à jour Windows, anciens journaux et fichiers de vidage. Vous voyez tout ce qui a été trouvé, avec les tailles et des descriptions claires, cochez ce qu’il faut supprimer et voyez combien sera libéré. Les fichiers vont à la Corbeille dès que c’est possible ; sinon, Helper le dit avant que vous appuyiez. Les onglets et mots de passe des navigateurs ne sont jamais touchés, et il n’y a pas de nettoyage du registre.
+Fichiers temporaires, cache des navigateurs, Corbeille, miniatures, restes des mises à jour Windows, anciens journaux et vidages d’erreurs. Vous voyez tout ce qui a été trouvé, avec tailles et descriptions claires, cochez ce qu’il faut supprimer et voyez combien sera libéré. Les fichiers vont dans la Corbeille dès que possible ; sinon, Helper le dit avant le clic. Les onglets et mots de passe du navigateur ne sont jamais touchés.
 
 ### 🚀 Démarrage
 
@@ -83,9 +83,29 @@ Une carte visuelle de ce qui occupe l’espace, avec les plus gros fichiers et d
 
 En fermant la fenêtre, Helper peut rester dans la zone de notification, avec la température et la charge dans l’info-bulle de l’icône. Alertes en cas de surchauffe, de manque d’espace ou de mémoire, ou d’un disque dont la santé se dégrade — un événement, une notification. Le lancement avec Windows est désactivé par défaut.
 
+### 🗑 Désinstallation complète
+
+D’abord le désinstalleur du programme, puis la recherche des restes — dossiers et clés de registre — affichés avant toute suppression, avec un point de restauration.
+
+### 🧰 Outils
+
+Doublons, dossiers vides, raccourcis cassés, recherche rapide de fichiers, récupération de fichiers supprimés, découpage et assemblage, broyeur et chiffrement par mot de passe. **Confidentialité :** effacer l’historique des navigateurs et les fichiers récents, nettoyer l’espace libre.
+
+### 🛠 Entretien de Windows
+
+Informations système, vérification du disque, optimisation, réparation des fichiers système, points de restauration, services, tâches planifiées, menu contextuel et un nettoyage prudent du registre. Les processus sont répartis entre applications, arrière-plan et sans réponse.
+
+### 🤖 En autonomie, et un journal
+
+Nettoyage de la mémoire planifié, nettoyage automatique et sûr des fichiers temporaires et du cache, et proposition de fermer une application qui ne répond plus. Le **Journal** liste tout ce que Helper a fait seul ou sur votre clic, et les modifications du système peuvent être annulées.
+
 ### 🔐 Droits d’administrateur
 
 L’application elle-même fonctionne sans droits d’administrateur. Ils sont nécessaires pour lire les capteurs : un petit agent séparé les obtient une seule fois, avec la confirmation de Windows. Les températures des cœurs, les ventilateurs et la carte mère demandent aussi un pilote de capteurs : Helper télécharge son installateur officiel uniquement quand vous appuyez sur le bouton, vérifie sa somme de contrôle et l’installe avec la confirmation de Windows. Vous pouvez le supprimer dans les Réglages. Tout le reste fonctionne sans lui.
+
+### ⚙️ Réglages et apparence personnalisée
+
+Les réglages sont répartis en sections — Apparence, Langue, Mises à jour et celles de l’application — avec une recherche en haut qui n’affiche que ce qui correspond. Thème sombre, clair ou comme Windows ; couleur de l’application : dix au choix ou la vôtre. Le fond de la fenêtre peut être une couleur, un dégradé, votre propre photo ou une vidéo muette, avec assombrissement et flou réglables.
 
 🌍 **9 langues :** anglais, russe, espagnol, portugais, allemand, français, chinois, japonais et coréen — à changer dans les Réglages, effet immédiat.
 
@@ -99,7 +119,7 @@ Le thème clair est à un clic — le bouton soleil en haut.
 
 1. Ouvrez la page de la **[dernière version](https://github.com/maksimkhatskevich/grimsby-helper/releases/latest)** et téléchargez l’installeur `.exe`.
 2. Lancez-le. Windows peut afficher une fenêtre bleue « Windows a protégé votre ordinateur » : c’est un avertissement normal pour les logiciels sans certificat de signature payant. Cliquez sur **Informations complémentaires → Exécuter quand même**.
-   L’installeur a été vérifié sur VirusTotal : [aucun des 68 antivirus ne détecte quoi que ce soit](https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327) (version 1.0.1).
+   L’installeur a été vérifié sur VirusTotal : [aucun des 68 antivirus ne détecte quoi que ce soit](https://www.virustotal.com/gui/file/ad42128ab26413ff71df138aab058cc6819f2f707081d396ba444b1f522efc1e) (version 1.1.0).
 3. Ouvrez Helper : l’écran d’accueil montre tout de suite l’état de votre PC.
 
 **Configuration requise :** Windows 10 ou 11 (64 bits).
@@ -116,11 +136,15 @@ Grimsby Helper fonctionne sur votre ordinateur. Les informations sur votre PC ne
 
 <table>
   <tr>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.fr.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Lecteur hors ligne pour votre musique et vos clips téléchargés</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.fr.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Vidéo, audio, photos et documents convertis hors ligne</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.fr.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Éditeur de tags par lots : albums, pochettes, noms de fichiers</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.fr.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>Un téléprompteur simple qui suit votre voix</sub></td>
-    <td align="center" width="20%"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b><br><img src="screenshots/family/here-fr.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.fr.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Lecteur hors ligne pour votre musique et vos clips téléchargés</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.fr.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Vidéo, audio, photos et documents convertis hors ligne</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.fr.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Éditeur de tags par lots : albums, pochettes, noms de fichiers</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.fr.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>Un téléprompteur simple qui suit votre voix</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b><br><img src="screenshots/family/here-fr.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-studio/blob/main/README.fr.md"><img src="screenshots/family/studio.png" width="56" alt=""><br><b>Grimsby Studio</b></a><br><sub>Éditeur vidéo avec des habillages musicaux animés</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-notes/blob/main/README.fr.md"><img src="screenshots/family/notes.png" width="56" alt=""><br><b>Grimsby Notes</b></a><br><sub>Tâches, projets, notes et calendrier dans une seule fenêtre</sub></td>
   </tr>
 </table>
 

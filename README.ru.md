@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-helper?label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=2FA6A0" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2FA6A0" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE-%D0%B1%D0%B5%D0%B7%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
+  <a href="https://www.virustotal.com/gui/file/ad42128ab26413ff71df138aab058cc6819f2f707081d396ba444b1f522efc1e"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-helper/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -67,7 +67,7 @@
 
 ### 🧹 Чистка, которая сначала показывает
 
-Временные файлы, кэш браузеров, Корзина, миниатюры, остатки обновлений Windows, старые журналы и файлы сбоев. Вы видите всё найденное с размерами и понятными описаниями, отмечаете, что убрать, и видите, сколько освободится. Файлы уходят в Корзину везде, где это возможно; где нельзя — Helper пишет об этом до нажатия. Вкладки и пароли браузеров не трогаются, чистки реестра нет.
+Временные файлы, кэш браузеров, Корзина, эскизы, остатки обновлений Windows, старые журналы и дампы сбоев. Вы видите всё найденное с размерами и понятными описаниями, отмечаете, что удалить, и видите, сколько освободится. Файлы по возможности уходят в Корзину; где это невозможно, Helper скажет об этом до нажатия кнопки. Вкладки и пароли браузеров не трогаются.
 
 ### 🚀 Автозагрузка
 
@@ -83,9 +83,29 @@
 
 При закрытии окна Helper может остаться в трее: в подсказке значка — температура и нагрузка. Предупреждения о перегреве, нехватке места и памяти и о диске, который теряет здоровье: одно событие — одно уведомление. Запуск вместе с Windows по умолчанию выключен.
 
+### 🗑 Удаление программ «под корень»
+
+Сначала штатное удаление, потом поиск остатков — папок и ключей реестра — с показом до удаления и точкой восстановления.
+
+### 🧰 Инструменты
+
+Дубликаты, пустые папки, битые ярлыки, быстрый поиск файлов, восстановление удалённых файлов, разрезание и склейка, шредер и шифрование паролем. **Конфиденциальность:** стирание истории браузеров и недавних файлов, зачистка свободного места.
+
+### 🛠 Обслуживание Windows
+
+Сведения о системе, проверка диска, оптимизация, восстановление системных файлов, точки восстановления, службы, задачи планировщика, контекстное меню и осторожная чистка реестра. Процессы разделены на приложения, фоновые и зависшие.
+
+### 🤖 Сам по себе — и журнал
+
+Очистка памяти по расписанию, безопасная автоочистка временных файлов и кэша, предложение закрыть зависшую программу. В **«Журнале»** — всё, что Helper сделал сам и по вашему нажатию; изменения системы можно отменить.
+
 ### 🔐 Права администратора
 
 Сама программа работает без прав администратора. Для чтения датчиков они нужны, поэтому маленький отдельный агент получает их один раз, с подтверждением Windows. Температуре ядер, вентиляторам и материнской плате нужен ещё драйвер датчиков: Helper скачивает его официальный установщик только по вашей кнопке, сверяет контрольную сумму и устанавливает с подтверждением Windows. Удалить его можно в настройках. Всё остальное работает и без него.
+
+### ⚙️ Настройки и своё оформление
+
+Настройки разбиты на разделы — «Оформление», «Язык», «Обновления» и разделы самой программы, — а поиск наверху показывает только то, где нашлось слово. Тема: тёмная, светлая или как в Windows; цвет программы — десять готовых или свой. Фон окна — цвет, градиент, своё фото или видео без звука, с настраиваемым затемнением и размытием.
 
 🌍 **9 языков:** русский, английский, испанский, португальский, немецкий, французский, китайский, японский и корейский — переключаются в настройках сразу.
 
@@ -99,7 +119,7 @@
 
 1. Откройте страницу **[последней версии](https://github.com/maksimkhatskevich/grimsby-helper/releases/latest)** и скачайте установщик `.exe`.
 2. Запустите его. Windows может показать синее окно «Система Windows защитила ваш компьютер» — это обычное предупреждение для программ без платного сертификата подписи. Нажмите **Подробнее → Выполнить в любом случае**.
-   Установщик проверен на VirusTotal: [ни один из 68 антивирусов ничего не нашёл](https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327) (версия 1.0.1).
+   Установщик проверен на VirusTotal: [ни один из 68 антивирусов ничего не нашёл](https://www.virustotal.com/gui/file/ad42128ab26413ff71df138aab058cc6819f2f707081d396ba444b1f522efc1e) (версия 1.1.0).
 3. Откройте Helper — главная сразу покажет состояние компьютера.
 
 **Требования:** Windows 10 или 11 (64 бит).
@@ -116,11 +136,15 @@ Grimsby Helper работает на вашем компьютере. Сведе
 
 <table>
   <tr>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ru.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Офлайн-плеер для скачанной музыки и клипов</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ru.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Видео, аудио, фото и документы — конвертация без интернета</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ru.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Пакетный редактор тегов: альбомы, обложки, имена файлов</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ru.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>Простой телесуфлёр, который следует за голосом</sub></td>
-    <td align="center" width="20%"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b><br><img src="screenshots/family/here-ru.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ru.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Офлайн-плеер для скачанной музыки и клипов</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ru.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Видео, аудио, фото и документы — конвертация без интернета</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ru.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Пакетный редактор тегов: альбомы, обложки, имена файлов</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ru.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>Простой телесуфлёр, который следует за голосом</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b><br><img src="screenshots/family/here-ru.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-studio/blob/main/README.ru.md"><img src="screenshots/family/studio.png" width="56" alt=""><br><b>Grimsby Studio</b></a><br><sub>Видеоредактор с анимированными музыкальными вставками</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-notes/blob/main/README.ru.md"><img src="screenshots/family/notes.png" width="56" alt=""><br><b>Grimsby Notes</b></a><br><sub>Задачи, проекты, заметки и календарь в одном окне</sub></td>
   </tr>
 </table>
 

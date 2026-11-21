@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-helper?label=Version&color=2FA6A0" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2FA6A0" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/kostenlos-ohne%20Werbung-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
+  <a href="https://www.virustotal.com/gui/file/ad42128ab26413ff71df138aab058cc6819f2f707081d396ba444b1f522efc1e"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-helper/total?label=Downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -67,7 +67,7 @@ Prozessortemperatur pro Kern, Taktfrequenzen und Leistungsaufnahme, Grafikkarten
 
 ### 🧹 Bereinigung, die zuerst zeigt
 
-Temporäre Dateien, Browser-Cache, Papierkorb, Miniaturansichten, Reste von Windows-Updates, alte Protokolle und Absturzabbilder. Du siehst alles Gefundene mit Größen und klaren Beschreibungen, hakst an, was weg soll, und siehst, wie viel frei wird. Dateien kommen wo immer möglich in den Papierkorb; wo nicht, sagt Helper das, bevor du den Knopf drückst. Browser-Tabs und Passwörter bleiben unberührt, eine Registry-Bereinigung gibt es nicht.
+Temporäre Dateien, Browser-Cache, Papierkorb, Miniaturansichten, Reste von Windows-Updates, alte Protokolle und Absturzabbilder. Du siehst alles Gefundene mit Größe und verständlicher Beschreibung, hakst ab, was weg soll, und siehst, wie viel frei wird. Dateien landen wann immer möglich im Papierkorb; wo nicht, sagt Helper es vor dem Klick. Browser-Tabs und Passwörter bleiben unangetastet.
 
 ### 🚀 Autostart
 
@@ -83,9 +83,29 @@ Eine anschauliche Karte dessen, was Platz belegt, mit den größten Dateien und 
 
 Beim Schließen des Fensters kann Helper im Infobereich bleiben, mit Temperatur und Last im Tooltip des Symbols. Warnungen bei Überhitzung, wenig Speicherplatz, wenig Arbeitsspeicher oder einem Datenträger, dessen Zustand nachlässt – ein Ereignis, eine Benachrichtigung. Der Start mit Windows ist standardmäßig aus.
 
+### 🗑 Programme restlos entfernen
+
+Erst die Deinstallation des Programms selbst, dann die Suche nach Resten – Ordnern und Registrierungsschlüsseln –, die dir vor dem Löschen gezeigt werden, mit Wiederherstellungspunkt.
+
+### 🧰 Werkzeuge
+
+Duplikate, leere Ordner, defekte Verknüpfungen, schnelle Dateisuche, Wiederherstellung gelöschter Dateien, Dateien teilen und zusammenfügen, Schredder und Verschlüsselung mit Passwort. **Datenschutz:** Browserverlauf und zuletzt verwendete Dateien löschen, freien Speicher überschreiben.
+
+### 🛠 Windows-Wartung
+
+Systeminformationen, Datenträgerprüfung, Optimierung, Reparatur von Systemdateien, Wiederherstellungspunkte, Dienste, geplante Aufgaben, Kontextmenü und eine vorsichtige Registrierungsbereinigung. Prozesse sind in Apps, Hintergrund und nicht reagierend unterteilt.
+
+### 🤖 Von selbst – und ein Protokoll
+
+Speicherbereinigung nach Zeitplan, sichere automatische Bereinigung von Temp-Dateien und Cache und das Angebot, eine hängende App zu schließen. Das **Protokoll** zeigt alles, was Helper selbst oder auf deinen Klick getan hat; Systemänderungen lassen sich rückgängig machen.
+
 ### 🔐 Administratorrechte
 
 Das Programm selbst läuft ohne Administratorrechte. Zum Lesen der Sensoren sind sie nötig, deshalb erhält ein kleiner separater Agent sie einmalig, mit Bestätigung von Windows. Kerntemperaturen, Lüfter und Mainboard brauchen außerdem einen Sensortreiber: Helper lädt dessen offiziellen Installer nur auf deinen Knopfdruck, prüft die Prüfsumme und installiert ihn mit Bestätigung von Windows. Entfernen kannst du ihn in den Einstellungen. Alles andere funktioniert auch ohne ihn.
+
+### ⚙️ Einstellungen und eigener Look
+
+Die Einstellungen sind in Bereiche gegliedert – Darstellung, Sprache, Updates und die der App selbst – mit einer Suche oben, die nur Treffer zeigt. Design: dunkel, hell oder wie Windows; App-Farbe: zehn fertige oder eine eigene. Der Fensterhintergrund kann eine Farbe, ein Verlauf, ein eigenes Foto oder ein stummes Video sein, mit einstellbarer Abdunklung und Unschärfe.
 
 🌍 **9 Sprachen:** Englisch, Russisch, Spanisch, Portugiesisch, Deutsch, Französisch, Chinesisch, Japanisch und Koreanisch – umschalten in den Einstellungen, sofort wirksam.
 
@@ -99,7 +119,7 @@ Das helle Design ist einen Klick entfernt – der Sonnenknopf oben.
 
 1. Öffne die Seite der **[neuesten Version](https://github.com/maksimkhatskevich/grimsby-helper/releases/latest)** und lade das Installationsprogramm `.exe` herunter.
 2. Starte es. Windows zeigt eventuell ein blaues Fenster „Der Computer wurde durch Windows geschützt“ – eine normale Warnung für Programme ohne kostenpflichtiges Signaturzertifikat. Klicke auf **Weitere Informationen → Trotzdem ausführen**.
-   Das Installationsprogramm wurde bei VirusTotal geprüft: [keiner der 68 Virenscanner schlägt an](https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327) (Version 1.0.1).
+   Das Installationsprogramm wurde bei VirusTotal geprüft: [keiner der 68 Virenscanner schlägt an](https://www.virustotal.com/gui/file/ad42128ab26413ff71df138aab058cc6819f2f707081d396ba444b1f522efc1e) (Version 1.1.0).
 3. Öffne Helper – die Startseite zeigt sofort den Zustand deines PCs.
 
 **Voraussetzungen:** Windows 10 oder 11 (64 Bit).
@@ -116,11 +136,15 @@ Grimsby Helper arbeitet auf deinem Computer. Informationen über deinen PC werde
 
 <table>
   <tr>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.de.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Offline-Player für deine heruntergeladene Musik und Videos</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.de.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Videos, Audio, Fotos und Dokumente – offline umwandeln</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.de.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Tag-Editor für ganze Alben: Tags, Cover, Dateinamen</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.de.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>Ein einfacher Teleprompter, der deiner Stimme folgt</sub></td>
-    <td align="center" width="20%"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b><br><img src="screenshots/family/here-de.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.de.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Offline-Player für deine heruntergeladene Musik und Videos</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.de.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>Videos, Audio, Fotos und Dokumente – offline umwandeln</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.de.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Tag-Editor für ganze Alben: Tags, Cover, Dateinamen</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.de.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>Ein einfacher Teleprompter, der deiner Stimme folgt</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b><br><img src="screenshots/family/here-de.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-studio/blob/main/README.de.md"><img src="screenshots/family/studio.png" width="56" alt=""><br><b>Grimsby Studio</b></a><br><sub>Videoeditor mit animierten Musik-Einspielern</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-notes/blob/main/README.de.md"><img src="screenshots/family/notes.png" width="56" alt=""><br><b>Grimsby Notes</b></a><br><sub>Aufgaben, Projekte, Notizen und Kalender in einem Fenster</sub></td>
   </tr>
 </table>
 

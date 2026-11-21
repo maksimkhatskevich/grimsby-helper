@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-helper?label=%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3&color=2FA6A0" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-2FA6A0" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E7%84%A1%E6%96%99-%E5%BA%83%E5%91%8A%E3%81%AA%E3%81%97-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
+  <a href="https://www.virustotal.com/gui/file/ad42128ab26413ff71df138aab058cc6819f2f707081d396ba444b1f522efc1e"><img src="https://img.shields.io/badge/VirusTotal-0%2F68-2E7D32" alt="VirusTotal 0/68"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-helper/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-helper/total?label=%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -67,7 +67,7 @@ PC 向けツールの多くは、数字をずらりと並べるか、魔法の�
 
 ### 🧹 まず見せるクリーンアップ
 
-一時ファイル、ブラウザーのキャッシュ、ごみ箱、サムネイル、Windows Update の残り、古いログ、クラッシュダンプ。見つかったものをサイズとわかりやすい説明付きですべて表示し、削除するものにチェックを入れると、空く容量がわかります。可能な限りファイルはごみ箱へ移動し、できない場合はボタンを押す前に知らせます。ブラウザーのタブやパスワードには一切触れず、レジストリのクリーンアップもありません。
+一時ファイル、ブラウザーのキャッシュ、ごみ箱、サムネイル、Windows Update の残り、古いログ、クラッシュダンプ。見つかったものはサイズとわかりやすい説明つきで表示され、削除するものにチェックを入れると空く容量がわかります。ファイルはできる限りごみ箱へ。できない場合はボタンを押す前に Helper が知らせます。ブラウザーのタブやパスワードには触れません。
 
 ### 🚀 スタートアップ
 
@@ -83,9 +83,29 @@ Windows と一緒に起動するもの：レジストリ、スタートアップ
 
 ウィンドウを閉じてもトレイに残せます。アイコンのヒントに温度と負荷を表示。過熱、空き容量不足、メモリ不足、ディスクの劣化を通知します。ひとつの出来事にひとつの通知。Windows と同時の起動は初期設定でオフです。
 
+### 🗑 完全アンインストール
+
+まずプログラム標準のアンインストーラー、次にフォルダーやレジストリキーの残りを検索。削除前に一覧を見せ、復元ポイントも作成します。
+
+### 🧰 ツール
+
+重複ファイル、空のフォルダー、壊れたショートカット、高速ファイル検索、削除したファイルの復元、ファイルの分割と結合、シュレッダー、パスワード暗号化。**プライバシー：** ブラウザーの履歴と最近使ったファイルの消去、空き領域の抹消。
+
+### 🛠 Windows のメンテナンス
+
+システム情報、ディスクチェック、最適化、システムファイルの修復、復元ポイント、サービス、タスク スケジューラ、右クリックメニュー、慎重なレジストリ整理。プロセスはアプリ、バックグラウンド、応答なしに分けて表示します。
+
+### 🤖 自動で動く機能と履歴
+
+スケジュールでのメモリ解放、一時ファイルとキャッシュの安全な自動整理、応答しないアプリを閉じる提案。**履歴** には Helper が自動で、またはクリックで行ったことがすべて残り、システムの変更は元に戻せます。
+
 ### 🔐 管理者権限
 
 アプリ自体は管理者権限なしで動きます。センサーを読むには権限が必要なため、小さな別のエージェントが Windows の確認のうえで一度だけ権限を得ます。コア温度、ファン、マザーボードにはセンサードライバーも必要です。ボタンを押したときだけ公式インストーラーをダウンロードし、チェックサムを確認して、Windows の確認のうえでインストールします。設定から削除できます。それ以外の機能はドライバーなしで動きます。
+
+### ⚙️ 設定と自分好みの見た目
+
+設定は「外観」「言語」「アップデート」とアプリ固有のセクションに分かれ、上の検索は一致した項目だけを表示します。テーマはダーク、ライト、Windows に合わせるの 3 つ。アプリの色は 10 色から選ぶか自分で決められます。 ウィンドウの背景は単色、グラデーション、自分の写真、音なしの動画から選べ、暗さとぼかしも調整できます。
 
 🌍 **9 言語：** 英語、ロシア語、スペイン語、ポルトガル語、ドイツ語、フランス語、中国語、日本語、韓国語。設定で切り替えるとすぐに反映されます。
 
@@ -99,7 +119,7 @@ Windows と一緒に起動するもの：レジストリ、スタートアップ
 
 1. **[最新バージョン](https://github.com/maksimkhatskevich/grimsby-helper/releases/latest)** のページを開き、インストーラー `.exe` をダウンロードします。
 2. 実行します。Windows に青い「Windows によって PC が保護されました」画面が出ることがありますが、有料の署名証明書がないアプリでは普通の警告です。**詳細情報 → 実行** をクリックしてください。
-   インストーラーは VirusTotal で確認済みです：[68 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/79550dfceb4f740ba5a4dfe5a1a3e5202b9a95ba69b22a5da992f82a8542c327)（バージョン 1.0.1）。
+   インストーラーは VirusTotal で確認済みです：[68 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/ad42128ab26413ff71df138aab058cc6819f2f707081d396ba444b1f522efc1e)（バージョン 1.1.0）。
 3. Helper を開くと、ホーム画面にすぐ PC の状態が表示されます。
 
 **動作環境：** Windows 10 / 11（64 ビット）。
@@ -116,11 +136,15 @@ Grimsby Helper はあなたのパソコンの中で動きます。PC の情報�
 
 <table>
   <tr>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ja.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>ダウンロードした音楽と MV のためのオフラインプレーヤー</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ja.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>動画・音声・写真・文書をオフラインで変換</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ja.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>タグ一括編集：アルバム、カバー、ファイル名</sub></td>
-    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ja.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>声についてくる、シンプルなプロンプター</sub></td>
-    <td align="center" width="20%"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b><br><img src="screenshots/family/here-ja.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ja.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>ダウンロードした音楽と MV のためのオフラインプレーヤー</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-converter/blob/main/README.ja.md"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b></a><br><sub>動画・音声・写真・文書をオフラインで変換</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ja.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>タグ一括編集：アルバム、カバー、ファイル名</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ja.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>声についてくる、シンプルなプロンプター</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="25%"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b><br><img src="screenshots/family/here-ja.svg" alt=""></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-studio/blob/main/README.ja.md"><img src="screenshots/family/studio.png" width="56" alt=""><br><b>Grimsby Studio</b></a><br><sub>アニメーション付き音楽インサートが作れる動画エディター</sub></td>
+    <td align="center" width="25%"><a href="https://github.com/maksimkhatskevich/grimsby-notes/blob/main/README.ja.md"><img src="screenshots/family/notes.png" width="56" alt=""><br><b>Grimsby Notes</b></a><br><sub>タスク、プロジェクト、ノート、カレンダーをひとつのウィンドウで</sub></td>
   </tr>
 </table>
 
